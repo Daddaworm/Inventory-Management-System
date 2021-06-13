@@ -1,0 +1,46 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "upc_number": "086216105210",
+            "product_name": "Dust Off Compressed-Gas Duster",
+            "brand": "Dust Off",
+            "description": "Compressed gass duster",
+            "image_url": "https://m.media-amazon.com/images/I/61Cw3mD7O6L._AC_SS450_.jpg",
+            "onhand_quantity": ""
+        },
+        {
+            "id": 2,
+            "upc_number": "086216105210",
+            "product_name": "Dust Off Compressed-Gas Duster",
+            "brand": "Dust Off",
+            "description": "Compressed gass duster",
+            "image_url": "https://m.media-amazon.com/images/I/61Cw3mD7O6L._AC_SS450_.jpg",
+            "onhand_quantity": ""
+        },
+        {
+            "id": 3,
+            "upc_number": "086216105210",
+            "product_name": "Dust Off Compressed-Gas Duster",
+            "brand": "Dust Off",
+            "description": "Compressed gass duster",
+            "image_url": "https://m.media-amazon.com/images/I/61Cw3mD7O6L._AC_SS450_.jpg",
+            "onhand_quantity": ""
+        }
+    ],
+
+    "orders": [
+        {
+            "id": 1,
+            "upc_number": "",
+            "product_name": "",
+            "brand": "",
+            "description": "",
+            "image_url": "",
+            "quantity_ordered": "",
+            "order_date": "",
+            "supplier": ""
+        }
+    ]
+}
+

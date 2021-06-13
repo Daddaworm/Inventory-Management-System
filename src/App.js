@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import NavBar from './Components/NavBar';
+import ItemLookup from './Components/ItemLookup'
+import AdjustInventory from './Components/AdjustInventory'
+import OrderInventory from './Components/OrderInventory'
+import About from './Components/About'
+// import { Navbar, Nav } from 'react-bootstrap'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
-function App() {
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div>
+        <NavBar />
+        <Route exact path="/ItemLookup" component={ItemLookup} />
+        <Route exact path="/AdjustInventory" component={AdjustInventory} />
+        <Route exact path="/OrderInventory" component={OrderInventory} />
+        <Route exact path="/About" component={About} />
+      </div>
+    </Router>
+  )
 }
 
-export default App;
+export default App
