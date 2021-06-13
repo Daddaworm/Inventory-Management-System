@@ -20,7 +20,7 @@ const UpcCard = (props) => {
                     <p>{props.item.images}</p>
                 <h6>Manufacturer: </h6>
                     <p>{props.item.manufacturer}</p>
-                <h6>Brand: {props.item.brand}</h6>
+                <button className='add-to-orders' placeholder='Add to Orders'>Add to Orders</button>
             </div>
         </div>
     )

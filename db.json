@@ -1,0 +1,44 @@
+{
+  "products": [
+      {
+          "id": 1,
+          "upc_number": "086216105210",
+          "product_name": "Dust Off Compressed-Gas Duster",
+          "brand": "Dust Off",
+          "description": "Compressed gass duster",
+          "image_url": "https://m.media-amazon.com/images/I/61Cw3mD7O6L._AC_SS450_.jpg",
+          "onhand_quantity": ""
+      },
+      {
+          "id": 2,
+          "upc_number": "041333703640",
+          "product_name": "Duracell 9v 4-pack batteries",
+          "brand": "Duracell",
+          "description": "Duracell 9 volt 4-pack of batteries",
+          "image_url": "https://m.media-amazon.com/images/I/712WtFmX2eL._AC_SL1500_.jpg",
+          "onhand_quantity": ""
+      },
+      {
+          "id": 3,
+          "upc_number": "600603216237",
+          "product_name": "Insignia Accessories for Apple Airpods",
+          "brand": "Insignia",
+          "description": "Accessories for Apple Airpods",
+          "image_url": "https://www.adorama.com/images/Large/acmv7n2amaa.jpg",
+          "onhand_quantity": ""
+      }
+  ],
+
+  "orders": [
+      {
+          "id": 1,
+          "upc_number": "",
+          "product_name": "",
+          "brand": "",
+          "description": "",
+          "image_url": "",
+          "quantity_ordered": ""
+      }
+  ]
+}
+
