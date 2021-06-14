@@ -1,20 +1,20 @@
 import React, { Component } from 'react' 
-import App from '../App'
-import Search from './Search'
-
-class OrderInventory extends React.Component {
+import OrderCard from './OrderCard'
 
 
 
+const OrderInventory = () => {
 
-    render() {
+
+
+
+    
         return(
             <div>
-                <h1>Order Inventory</h1>
-                <Search />
+                <h1>Order Inv</h1>
+                
             </div>
         )
-    }
 }
 
 export default OrderInventory

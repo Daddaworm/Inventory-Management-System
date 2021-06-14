@@ -1,7 +1,9 @@
 //This will be the home page
 import React, { Component } from 'react'
 import { useState, useEffect } from 'react'
-import UpcCard from './UpcCard'
+import FlipCard from './FlipCard'
+import OrderInventory from './OrderInventory'
+import OrderCard from './OrderCard'
 
 function ItemLookup()  {
    
@@ -42,7 +44,7 @@ function ItemLookup()  {
                     <input type='text' placeholder='Search by a UPC' onChange={handleSearch} ></input>
                     <input type='submit' ></input>
                 </form>
-                <UpcCard item={item}/>
+                <FlipCard item={item}/>
             </div>
         )
 }
