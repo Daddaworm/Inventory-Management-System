@@ -1,11 +1,10 @@
-import React, { Component } from 'react' 
 import { useState, useEffect} from 'react'
 
 
 
 
 
-const AdjustInventory = () => {
+const AdjustInventory = (props) => {
 
 
 
@@ -16,8 +15,16 @@ const AdjustInventory = () => {
     // })
 
     return(
-        <div>
+        <div className='adjust-div'>
             <h1>Adjust Inventory</h1>
+
+            <form>
+                <input type='text' placeholder='Enter upc to adjust'></input>
+                <input type='submit' name='submit' ></input>
+            </form>
+            <button> <h1> - </h1> </button>
+            <span>0</span>
+            <button> <h1> + </h1></button>
         </div>
     )
 
