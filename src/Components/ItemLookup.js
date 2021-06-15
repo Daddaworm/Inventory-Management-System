@@ -1,8 +1,5 @@
-//This will be the home page
-
 import { useState, useEffect } from 'react'
 import FlipCard from './FlipCard'
-import Orders from './Orders'
 import { render } from '@testing-library/react'
 
 const ItemLookup = () =>  {
@@ -20,7 +17,6 @@ const ItemLookup = () =>  {
     }
     useEffect(handleFetch , [])
 
-
     // how to capture value of input and set state
     const handleSearch = (e) => {
         const value = e.target.value
@@ -35,19 +31,6 @@ const ItemLookup = () =>  {
         setItem(itemObj)
     }
 
-    // const handleFetch = (e) => {
-    //     // console.log(e)
-    //     e.preventDefault()
-    //     const apiKey1 = 'DD60F606772ACED1296B5D968B8C147A';
-    //     const apiKey2 = '1320F70F291D90AB3FE03ACDC1543E29'
-    //     const upcSample = '0079184380048'
-    //     const URL = `product/${upc}?apikey=${apiKey1}`;
-    //     fetch(URL)
-    //         .then(resp => resp.json())
-    //         .then(data => setItem(data))
-    //         .catch(error => console.log(error))
-    // }
-
         return (
             <div className='item-lookup'>
                 <form className="submit-form" onSubmit={handleSubmit}>
@@ -56,9 +39,9 @@ const ItemLookup = () =>  {
                     <input type='text' placeholder='Search by UPC' onChange={handleSearch} value={itemNum}></input>
                     <input type='submit' ></input>
                 </form>
+                <br/>
                 <FlipCard item={item} />
             </div>
         )
 }
-
 export default ItemLookup

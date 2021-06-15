@@ -2,12 +2,8 @@ import FlipCardBack from './FlipCardBack'
 import FlipCardFront from './FlipCardFront'
 import './flipcard.css'
 
-
-
-
 const FlipCard = (props) => {
 
- 
     return (
         <div class="flip-card">
             <div class="flip-card-inner">
@@ -16,6 +12,5 @@ const FlipCard = (props) => {
             </div>
         </div>
     )
-
 }
 export default FlipCard

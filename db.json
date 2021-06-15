@@ -30,32 +30,20 @@
   ],
   "orders": [
     {
-      "id": 1,
-      "item_number": "",
-      "name": "",
-      "description": "",
-      "image_url": "",
-      "quantity_ordered": ""
-    },
-    {
-      "quantity_ordered": "5",
-      "id": 2
-    },
-    {
-      "item_number": "041333703640",
-      "name": "Duracell 9v 4-pack batteries",
-      "description": "Duracell 9 volt 4-pack of batteries",
-      "image_url": "https://m.media-amazon.com/images/I/712WtFmX2eL._AC_SL1500_.jpg",
+      "item_number": "600603216237",
+      "name": "Insignia Accessories for Apple Airpods",
+      "description": "Accessories for Apple Airpods",
+      "image_url": "https://www.adorama.com/images/Large/acmv7n2amaa.jpg",
       "quantity_ordered": "1",
-      "id": 3
+      "id": 1
     },
     {
       "item_number": "041333703640",
       "name": "Duracell 9v 4-pack batteries",
       "description": "Duracell 9 volt 4-pack of batteries",
       "image_url": "https://m.media-amazon.com/images/I/712WtFmX2eL._AC_SL1500_.jpg",
-      "quantity_ordered": "5",
-      "id": 4
+      "quantity_ordered": "2",
+      "id": 2
     }
   ]
 }

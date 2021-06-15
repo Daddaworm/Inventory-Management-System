@@ -1,9 +1,7 @@
 import React, { useState } from "react"
 
 
-
 const FlipCardBack = (props) => {
-
 
     const [orderQty, setOrderQty] = useState('')
 
@@ -36,7 +34,6 @@ const FlipCardBack = (props) => {
         .then(data => console.log(data))
     }
 
-
     const handleClick = (e) => {
         e.preventDefault()
         const value = e.target.value
@@ -66,7 +63,6 @@ const FlipCardBack = (props) => {
                 <input type='submit' value='Add to order' ></input>
             </form>
             <br/>
-        
             <form>
                 <h4>Adjust Inventory</h4>
                 <button onClick={handleClick} value='-'> - </button>
@@ -76,5 +72,4 @@ const FlipCardBack = (props) => {
         </div>
     )
 }
-
 export default FlipCardBack

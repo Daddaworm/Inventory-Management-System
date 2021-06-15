@@ -1,12 +1,6 @@
 import React, { Component } from 'react'
 
-
-
 const OrderCard = (props) => {
-
-
-
-
 
     return (
         <div className='orders-div'>
@@ -37,5 +31,4 @@ const OrderCard = (props) => {
         </div>
     )
 }
-
 export default OrderCard

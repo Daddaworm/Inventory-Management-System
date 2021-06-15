@@ -3,8 +3,6 @@ import React from 'react'
 
 const FlipCardFront = (props) => {
 
-
-
     return (
         <div className="flip-card-front">
             
@@ -24,5 +22,4 @@ const FlipCardFront = (props) => {
         </div>
     )
 }
-
 export default FlipCardFront

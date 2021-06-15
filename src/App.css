@@ -1,17 +1,9 @@
-/* * {
-  margin: 0;
-  width: 100%;
-  padding: 0;
-} */
 
-.navbar-brand {
-  padding-left: 20px;
-}
 
 .mr-auto {
-  justify-content: flex-end;
+  justify-content: space-evenly;
   display: flex;
-  min-width: 45vw;
+  min-width: 69vw;
 }
 
 .form-control {
@@ -61,6 +53,13 @@
   height: 100px;
 }
 
+.about-div {
+  margin: auto;
+  text-align: justify;
+  width: 600px;
+  height: 600px;
+}
+
 /* below is styling for table */
 .users {
   table-layout: fixed;
@@ -72,14 +71,23 @@
   width: 10%;
 }
 .row-name {
-  width: 40%;
-}
-.row-job {
   width: 30%;
 }
-.row-email {
-  width: 20%;
+.row-description {
+  width: 30%;
 }
+.row-qty {
+  width: 10%;
+}
+
+.row-price {
+  width: 10%;
+}
+
+.row-image {
+  width: 10%;
+}
+
 .users td {
   white-space: nowrap;
   overflow: hidden;

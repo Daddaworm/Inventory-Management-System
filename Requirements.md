@@ -7,7 +7,7 @@
 
 2. Your app should have one HTML page to render your react application DONE!
 
-3. Your app should use multiple components in a way that keeps your code well organized. INPROGRESS
+3. Your app should use multiple components in a way that keeps your code well organized. DONE!
 
 4. There should be 3 routes DONE!
 
@@ -15,7 +15,7 @@
 
 6. Your app must incorporate API data. This data can be from a public API or from a GitHub JSON file you create DONE!
 
-7. Your app must persist some data using a JSON server as a mock up backend
+7. Your app must persist some data using a JSON server as a mock up backend DONE!
 
 8. Your application should have some minimal styling: feel free to incorporate a UI framework (like react-bootstrap (Links to an external site.) or material-ui (Links to an external site.)), but if you want to write CSS yourself, go for it! DONE!
 
