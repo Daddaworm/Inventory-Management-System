@@ -44,20 +44,15 @@ const FlipCardBack = (props) => {
         props.adjustQty(value, props.item.item_number)
     }
 
-    
-
-
-
     return (
         <div className="flip-card-back">
             <br/>
             <h3>Order Information</h3>
             <hr></hr>
-            <p>{props.item.name}</p>
-            <p>UPC {props.item.item_number}</p>
-            <p>Price {props.item.price}</p>
-            <br/>
-            <p> Current Onhand Qty {props.item.onhand_quantity}</p>
+            <p><b>{props.item.name}</b></p>
+            <p><b>UPC:</b> {props.item.item_number}</p>
+            <p><b>Price:</b> {props.item.price}</p>
+            <p> <b>Current Inventory Onhand:</b> {props.item.onhand_quantity}</p>
             <br/>
             <form onSubmit={handleOrder}>
                 <select>

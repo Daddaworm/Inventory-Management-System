@@ -2,9 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import FlipCard from './FlipCard'
-import OrderInventory from './OrderInventory'
-import OrderCard from './OrderCard'
-import AdjustInventory from './AdjustInventory'
+import Orders from './Orders'
 import { render } from '@testing-library/react'
 
 const ItemLookup = () =>  {
@@ -22,8 +20,6 @@ const ItemLookup = () =>  {
     }
     useEffect(handleFetch , [])
 
-    // const [item, setItem] = useState({})
-    // const [upc, setUpc] = useState('')
 
     // how to capture value of input and set state
     const handleSearch = (e) => {
@@ -32,29 +28,11 @@ const ItemLookup = () =>  {
     }
 
     const handleSubmit = (e) => {
-        //go inside items
         e.preventDefault()
         const itemObj = items.find(item => {
             return itemNum === item.item_number
         })
         setItem(itemObj)
-    }
-
-    
-    const adjustQty = (char, num ) => {
-        console.log(char, num)
-        //if char === '-' go inside items in state, into the item that matches the itemNum, and decrement qty
-        let newItems;
-        if(char === '-') {
-            newItems = items.map(item => {
-                return (num === item.item_number) ? {...item ,onhand_quantity: item.onhand_quantity - 1} : item
-            })
-            setItems(newItems)
-        }
-        console.log(newItems)
-
-        //if char === '+' go inside items in state, into the item that matches the itemNum, and increment qty
-
     }
 
     // const handleFetch = (e) => {
@@ -72,14 +50,13 @@ const ItemLookup = () =>  {
 
         return (
             <div className='item-lookup'>
-                {/* <h3>Welcome to Inventory Management System</h3> */}
                 <form className="submit-form" onSubmit={handleSubmit}>
                     <h5>To find an item, please enter a valid barcode number</h5>
-                    <p>Sample barcode number: 086216105210</p>
+                    <p>Sample barcode number: 086216105210,  041333703640,  600603216237</p>
                     <input type='text' placeholder='Search by UPC' onChange={handleSearch} value={itemNum}></input>
                     <input type='submit' ></input>
                 </form>
-                <FlipCard item={item} adjustQty={adjustQty}/>
+                <FlipCard item={item} />
             </div>
         )
 }

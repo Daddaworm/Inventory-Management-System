@@ -38,12 +38,24 @@
       "quantity_ordered": ""
     },
     {
+      "quantity_ordered": "5",
+      "id": 2
+    },
+    {
       "item_number": "041333703640",
       "name": "Duracell 9v 4-pack batteries",
       "description": "Duracell 9 volt 4-pack of batteries",
       "image_url": "https://m.media-amazon.com/images/I/712WtFmX2eL._AC_SL1500_.jpg",
-      "quantity_ordered": "2",
-      "id": 2
+      "quantity_ordered": "1",
+      "id": 3
+    },
+    {
+      "item_number": "041333703640",
+      "name": "Duracell 9v 4-pack batteries",
+      "description": "Duracell 9 volt 4-pack of batteries",
+      "image_url": "https://m.media-amazon.com/images/I/712WtFmX2eL._AC_SL1500_.jpg",
+      "quantity_ordered": "5",
+      "id": 4
     }
   ]
 }

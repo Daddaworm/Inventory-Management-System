@@ -4,13 +4,6 @@ import React from 'react'
 const FlipCardFront = (props) => {
 
 
-    const handleOrder = () => {
-
-    }
-
-
-    
-
 
     return (
         <div className="flip-card-front">
