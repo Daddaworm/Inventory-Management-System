@@ -12,11 +12,6 @@ const FlipCard = (props) => {
         let quantity = e.target.children[0].value
     }
 
-    const generateItem = (props) => {
-        return props.items.map(item => {
-            return item
-        })
-    } 
 
 
     return (
@@ -53,8 +48,8 @@ const FlipCard = (props) => {
 
         <div class="flip-card">
             <div class="flip-card-inner">
-                <FlipCardFront item={generateItem} />
-                <FlipCardBack  items={props.items} />
+                <FlipCardFront item={props.item}/>
+                <FlipCardBack item={props.item} adjustQty={props.adjustQty} />
             </div>
         </div>
     )

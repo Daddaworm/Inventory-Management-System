@@ -14,7 +14,7 @@ const FlipCardFront = (props) => {
 
     return (
         <div className="flip-card-front">
-            {/* <img src="img_avatar.png" alt="Avatar" style={{ width: 300, height: 300 }} /> */}
+            
             <h3>Item Information</h3>
             <hr></hr>
             <h5>Item: </h5>
@@ -25,9 +25,9 @@ const FlipCardFront = (props) => {
             <p>{props.item.description}</p>
             <h5>MSRP: </h5>
             <p>{props.item.price}</p>
-            {/* <div className='card-image-div'> */}
-            <img src={props.item.image_url} alt=''  className='image-style'/>
-            {/* </div> */}
+            <div className='card-image-div'> 
+            <img src={props.item.image_url} alt=''  className='image-style'/> 
+            </div>
         </div>
     )
 }

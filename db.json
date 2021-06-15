@@ -1,41 +1,49 @@
 {
-    "items": [
-        {
-            "id": 1,
-            "name": "Dust Off Compressed-Gas Duster",
-            "item_number": "086216105210",
-            "description": "Compressed gass duster",
-            "price": "4.99",
-            "onhand_quantity": "20",
-            "image_url": "https://m.media-amazon.com/images/I/61Cw3mD7O6L._AC_SS450_.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Duracell 9v 4-pack batteries",
-            "item_number": "041333703640",
-            "description": "Duracell 9 volt 4-pack of batteries",
-            "price": "9.99",
-            "onhand_quantity": "100",
-            "image_url": "https://m.media-amazon.com/images/I/712WtFmX2eL._AC_SL1500_.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Insignia Accessories for Apple Airpods",
-            "item_number": "600603216237",
-            "description": "Accessories for Apple Airpods",
-            "price": "19.99",
-            "onhand_quantity": "20",
-            "image_url": "https://www.adorama.com/images/Large/acmv7n2amaa.jpg"
-        }
-    ],
-    "orders": [
-        {
-            "id": 1,
-            "item_number": "",
-            "name": "",
-            "description": "",
-            "image_url": "",
-            "quantity_ordered": ""
-        }
-    ]
+  "items": [
+    {
+      "id": 1,
+      "name": "Dust Off Compressed-Gas Duster",
+      "item_number": "086216105210",
+      "description": "Compressed gas duster",
+      "price": "4.99",
+      "onhand_quantity": "20",
+      "image_url": "https://m.media-amazon.com/images/I/61Cw3mD7O6L._AC_SS450_.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Duracell 9v 4-pack batteries",
+      "item_number": "041333703640",
+      "description": "Duracell 9 volt 4-pack of batteries",
+      "price": "9.99",
+      "onhand_quantity": "100",
+      "image_url": "https://m.media-amazon.com/images/I/712WtFmX2eL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Insignia Accessories for Apple Airpods",
+      "item_number": "600603216237",
+      "description": "Accessories for Apple Airpods",
+      "price": "19.99",
+      "onhand_quantity": "20",
+      "image_url": "https://www.adorama.com/images/Large/acmv7n2amaa.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "item_number": "",
+      "name": "",
+      "description": "",
+      "image_url": "",
+      "quantity_ordered": ""
+    },
+    {
+      "item_number": "041333703640",
+      "name": "Duracell 9v 4-pack batteries",
+      "description": "Duracell 9 volt 4-pack of batteries",
+      "image_url": "https://m.media-amazon.com/images/I/712WtFmX2eL._AC_SL1500_.jpg",
+      "quantity_ordered": "2",
+      "id": 2
+    }
+  ]
 }
