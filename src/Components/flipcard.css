@@ -36,27 +36,27 @@
   /* Style the front side (fallback if image is missing) */
 .flip-card-front {
     text-align: center;
-    background-color: dodgerblue;
-    color: white;
+    background-color: white;
+    color:black;
     padding: 5px;
 }
 
   /* Style the back side */
 .flip-card-back {
-    background-color: grey;
-    color: white;
+    background-color:white;
+    color:black;
     transform: rotateY(180deg);
 }
 
 .image-style {
-  border: none;
   margin: auto;
   width: 290px;
-  height: 235px;
+  height: 223px;
 }
 
 .card-image-div {
+  display: hidden;
   width: 290px;
-  height: 235px;
+  height: 230px;
   
 }

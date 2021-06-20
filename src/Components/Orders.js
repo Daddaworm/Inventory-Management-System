@@ -15,6 +15,9 @@ const Orders = () => {
 
     return (
         <div>
+            <br/>
+            <br/>
+            <br/>
             <h2>Current orders:</h2>
             {order.map(singleOrder => (
                 <OrderCard order={singleOrder}/>

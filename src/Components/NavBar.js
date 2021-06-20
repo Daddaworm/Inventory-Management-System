@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const NavBar = () => {
     return (
-        <div>
+        <div style={{position: 'fixed', width: '100%'}}>
             <Navbar bg="primary" variant="dark">
                 <Navbar.Brand href="#home">Inventory Management System</Navbar.Brand>
                 <Nav className="mr-auto">

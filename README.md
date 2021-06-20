@@ -1,70 +1,44 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## PROJECT NAME
+    Inventory Management System
 
-## Available Scripts
+## DESCRIPTION
+    Prior to learning to program, I spent over 20 years in the retail management field.  The majority of that time was spent within the Assets Protection part of retail as well as Assistand Store Manager of a high volume big box home improvement center.  During this time in retail, I witnessed companies slow creep forward in their attempts to keep thier companies up to date with the latest technology for thier employees.  I often wondered what kinds of technology could the companies provide to thier employees to make their jobs easier as well as make the flow of information more efficient company wide.  And so with this project, I decided to try to imulate some of the features seen in apps that fortune 50 companies provide to their employees.  While There is still plenty that can be done with an applications like this, I only have had 3 weeks of React progamming prior to this and only a week's time to complete my first React project.
 
-In the project directory, you can run:
+    The application is similar to the ones that thousands of employees in various companies carry around on hand held devices.  Working in an environment where there are 40,000 plus individual SKU's, each with thier own set of information, can be challenging without the help of computers and applications to keep track of it all.  My application is designed from the perspective of an employee of a company who must interact with hundreds of SKU's a day.  They rely on applications to give them information on the SKU such as price, qty onhand, order information, etc.  
 
-### `npm start`
+## Blog
+    As part of the development process, certain concepts were harder to grasp than others.  Passing of props and component structure was one of the concepts.  To ensure that I understood the passing of props from one componenet to another, I took the liberty to write a blog post about the subject which can be read here :  https://ethan-rodriguez.medium.com/passing-props-into-functional-components-react-javascript-c5fafaeccb4a
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Running this application
+    SERVER:
+    This applications runs off of a mock back-end server that I created using a db.json file.  to initiate the server, open terminal and run the command: json-server --watch db.json
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    NPM
+    To run the applications, start the json server first (see above)....Then open another terminal and run the following commands.  
+    In the terminal run the command: npm install
+    After npm install runs, In the same terminal, run the command: npm start
 
-### `npm test`
+## Where to go for support
+    If there are any issues with the application or want to contact me for any reason, please contact me at ethan.r.rodriguez@gmail.com
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Changelog
+    All notable changes to this project will be documented on this file
+    [Unreleased]
+    [Version 1.0.0]
 
-### `npm run build`
+## Roadmap
+    While this applications is nowhere near complete.  There is much more functionality that can be implimented in the future.  As my knowledge of JavaScript and React grow.  I will continue to add additional functionality to the app.  A few ideas are...
+        1) Ability to adjust inventory onhands
+        2) Connect app to a real backend once I learn Ruby
+        3) Ability to make POST request directly from the app
+        4) Ability to add a secondary text area allowing user to search by name as well as the already included SKU search.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Authors and Acknowledgements
+    Author: Ethan Rodriguez
+    Acknowledgements:  
+    1) I would like to thank members of my fellow cohort.  We have all helped each other out with learning, labs, projects, etc.  I would not know what I know at the time of this project without each of you ready and willing to help when issues arise. We have all learned TOGETHER!  Thank you.
+    2) Thanks to the insturctors at Flatiron school as well as the team who developed the ciriculum.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

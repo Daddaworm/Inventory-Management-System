@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import FlipCard from './FlipCard'
-import { render } from '@testing-library/react'
+// import { render } from '@testing-library/react'
 
 const ItemLookup = () =>  {
 
@@ -34,6 +34,7 @@ const ItemLookup = () =>  {
         return (
             <div className='item-lookup'>
                 <form className="submit-form" onSubmit={handleSubmit}>
+                    <br/>
                     <h5>To find an item, please enter a valid barcode number</h5>
                     <p>Sample barcode number: 086216105210,  041333703640,  600603216237</p>
                     <input type='text' placeholder='Search by UPC' onChange={handleSearch} value={itemNum}></input>

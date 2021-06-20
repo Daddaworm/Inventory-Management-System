@@ -8,7 +8,7 @@ const FlipCard = (props) => {
         <div class="flip-card">
             <div class="flip-card-inner">
                 <FlipCardFront item={props.item}/>
-                <FlipCardBack item={props.item} adjustQty={props.adjustQty} />
+                <FlipCardBack item={props.item} />
             </div>
         </div>
     )

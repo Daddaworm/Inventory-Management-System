@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 
-
 const FlipCardBack = (props) => {
 
     const [orderQty, setOrderQty] = useState('')
@@ -17,6 +16,7 @@ const FlipCardBack = (props) => {
                     name: props.item.name,
                     description: props.item.description,
                     image_url: props.item.image_url,
+                    price: props.item.price,
                     quantity_ordered: qtyOrdered
             }
         // build config object and pass data Object into the body
@@ -32,13 +32,6 @@ const FlipCardBack = (props) => {
         fetch("http://localhost:3000/orders", configObj)
         .then(res => res.json())
         .then(data => console.log(data))
-    }
-
-    const handleClick = (e) => {
-        e.preventDefault()
-        const value = e.target.value
-        console.log(value);
-        props.adjustQty(value, props.item.item_number)
     }
 
     return (
@@ -65,9 +58,9 @@ const FlipCardBack = (props) => {
             <br/>
             <form>
                 <h4>Adjust Inventory</h4>
-                <button onClick={handleClick} value='-'> - </button>
+                <button value='-'> - </button>
                 <span> 0 </span>
-                <button onClick={handleClick} value='+'> + </button>
+                <button value='+'> + </button>
             </form>
         </div>
     )

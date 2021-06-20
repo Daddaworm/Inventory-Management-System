@@ -1,11 +1,9 @@
 import React from 'react'
 
-
 const FlipCardFront = (props) => {
 
     return (
         <div className="flip-card-front">
-            
             <h3>Item Information</h3>
             <hr></hr>
             <h5>Item: </h5>
