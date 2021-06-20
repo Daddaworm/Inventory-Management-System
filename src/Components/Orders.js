@@ -13,15 +13,24 @@ const Orders = () => {
     }
     useEffect(handleFetch, [])
 
+    const renderOrderCard = () => {
+        return order.map(singleOrder => {
+            return <OrderCard order={singleOrder} key={singleOrder.id} />
+        })
+    }
+
+
+
     return (
         <div>
             <br/>
             <br/>
             <br/>
             <h2>Current orders:</h2>
-            {order.map(singleOrder => (
+            {renderOrderCard()}
+            {/* {order.map(singleOrder => (
                 <OrderCard order={singleOrder} key={singleOrder.id}/>
-            ))}
+            ))} */}
         </div>
     )
 }
