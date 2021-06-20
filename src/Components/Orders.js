@@ -20,7 +20,7 @@ const Orders = () => {
             <br/>
             <h2>Current orders:</h2>
             {order.map(singleOrder => (
-                <OrderCard order={singleOrder}/>
+                <OrderCard order={singleOrder} key={singleOrder.id}/>
             ))}
         </div>
     )

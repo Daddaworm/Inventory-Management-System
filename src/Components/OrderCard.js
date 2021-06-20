@@ -1,18 +1,18 @@
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
 const OrderCard = (props) => {
 
     return (
         <div className='orders-div'>
-            <table class="users">
+            <table className="users">
                 <thead>
                     <tr>
-                        <th class="row-1 row-ID">Invoice</th>
-                        <th class="row-2 row-name">Item</th>
-                        <th class="row-3 row-description">Description</th>
-                        <th class="row-4 row-qty">Order Qty</th>
-                        <th class="row-5 row-price">Price</th>
-                        <th class="row-6 row-image">Image</th>
+                        <th className="row-1 row-ID">Invoice</th>
+                        <th className="row-2 row-name">Item</th>
+                        <th className="row-3 row-description">Description</th>
+                        <th className="row-4 row-qty">Order Qty</th>
+                        <th className="row-5 row-price">Price</th>
+                        <th className="row-6 row-image">Image</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -23,7 +23,7 @@ const OrderCard = (props) => {
                         <td>{props.order.quantity_ordered}</td>
                         <td>{props.order.price}</td>
                         <td >
-                            <img src={props.order.image_url} className='order-image'/>
+                            <img src={props.order.image_url} alt='' className='order-image'/>
                         </td>
                     </tr>
                 </tbody>

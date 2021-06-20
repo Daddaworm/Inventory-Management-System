@@ -10,7 +10,6 @@ const FlipCardBack = (props) => {
         setOrderQty(qtyOrdered)
         // console.log(qtyOrdered)
 
-        // build your data Object to pass to the config object
             const ordersObj = {
                     item_number: props.item.item_number,
                     name: props.item.name,
@@ -19,7 +18,7 @@ const FlipCardBack = (props) => {
                     price: props.item.price,
                     quantity_ordered: qtyOrdered
             }
-        // build config object and pass data Object into the body
+
             const configObj = {
                 method: 'POST',
                 headers: {
@@ -31,7 +30,7 @@ const FlipCardBack = (props) => {
         // Do the post and pass config Object as second parameter
         fetch("http://localhost:3000/orders", configObj)
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => console.log('Success', data))
     }
 
     return (
@@ -56,12 +55,6 @@ const FlipCardBack = (props) => {
                 <input type='submit' value='Add to order' ></input>
             </form>
             <br/>
-            <form>
-                <h4>Adjust Inventory</h4>
-                <button value='-'> - </button>
-                <span> 0 </span>
-                <button value='+'> + </button>
-            </form>
         </div>
     )
 }

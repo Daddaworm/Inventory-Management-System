@@ -5,8 +5,8 @@ import './flipcard.css'
 const FlipCard = (props) => {
 
     return (
-        <div class="flip-card">
-            <div class="flip-card-inner">
+        <div className="flip-card">
+            <div className="flip-card-inner">
                 <FlipCardFront item={props.item}/>
                 <FlipCardBack item={props.item} />
             </div>
