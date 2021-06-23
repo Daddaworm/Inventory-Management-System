@@ -1,14 +1,11 @@
-import React, { useState } from "react"
+// import React, { useState } from "react"
 
 const FlipCardBack = (props) => {
 
-    const [orderQty, setOrderQty] = useState('')
-
-    const handleOrder = (e) => {
+    
+    const handleSubmit = (e) => {
         e.preventDefault()
         const qtyOrdered = e.target[0].value
-        setOrderQty(qtyOrdered)
-        // console.log(qtyOrdered)
 
             const ordersObj = {
                     item_number: props.item.item_number,
@@ -31,8 +28,8 @@ const FlipCardBack = (props) => {
         fetch("http://localhost:3000/orders", configObj)
         .then(res => res.json())
         .then(data => console.log('Success', data))
+    
     }
-
     return (
         <div className="flip-card-back">
             <br/>
@@ -43,9 +40,9 @@ const FlipCardBack = (props) => {
             <p><b>Price:</b> {props.item.price}</p>
             <p> <b>Current Inventory Onhand:</b> {props.item.onhand_quantity}</p>
             <br/>
-            <form onSubmit={handleOrder}>
-                <select>
-                    <option value='1' name='qty'>1</option>
+            <form onSubmit={handleSubmit}>
+                <select  className='select-value'>
+                    <option value='1'>1</option>
                     <option value='2'>2</option>
                     <option value='3'>3</option>
                     <option value='4'>4</option>
