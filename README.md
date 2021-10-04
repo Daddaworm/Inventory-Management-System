@@ -1,6 +1,9 @@
 
 ## PROJECT NAME
     Inventory Management System
+    
+## VIDEO DEMO
+    https://youtu.be/OkBXm5hcZTg
 
 ## DESCRIPTION
     Prior to learning to program, I spent over 20 years in the retail management field.  The majority of that time was spent within the Assets Protection part of retail as well as Assistand Store Manager of a high volume big box home improvement center.  During this time in retail, I witnessed companies slow creep forward in their attempts to keep thier companies up to date with the latest technology for thier employees.  I often wondered what kinds of technology could the companies provide to thier employees to make their jobs easier as well as make the flow of information more efficient company wide.  And so with this project, I decided to try to imulate some of the features seen in apps that fortune 50 companies provide to their employees.  While There is still plenty that can be done with an applications like this, I only have had 3 weeks of React progamming prior to this and only a week's time to complete my first React project.
